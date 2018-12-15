@@ -1,0 +1,31 @@
+debug:False
+
+postgresql:
+  database: Airbnb
+  user: minghao
+  password: aa123456
+  host: 172.31.53.126
+  port: 5432
+
+test_postgresql:
+  database: test
+  host: localhost
+  user: minghao_qiu
+  password:
+  port: 5432
+
+mongodb:
+  host: 172.31.61.183
+  database: Airbnb
+  roomid: RoomID
+
+test_mongodb:
+  host: localhost
+  database: Airbnb
+  analyze_database: Airbnb_analyze
+  roomid: Airbnb-2017-01-13
+
+run:
+  from: 2017-01-10
+  to: 2017-06-18
+  
